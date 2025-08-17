@@ -43,4 +43,4 @@ Chúng tôi hoan nghênh mọi đóng góp! Hãy tạo pull request hoặc mở 
 
 ---
 
-Bạn có muốn thêm phần mô tả kiến trúc hệ thống, sơ đồ hoạt động, hoặc hướng dẫn tích hợp với phần cứng không?
+Dự án đang trong giai đoạn khởi động. 
