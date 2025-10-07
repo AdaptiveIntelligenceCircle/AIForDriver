@@ -2,7 +2,8 @@
 
 **AIForDriver** là một hệ thống hỗ trợ tài xế nhằm **giảm căng thẳng**, **nâng cao hiệu suất lái xe** và **tăng cường bảo vệ an toàn**.
 
-<img width="512" height="512" alt="image" src="https://copilot.microsoft.com/th/id/BCO.f379871e-2750-457d-b9f9-92cae29677c2.png"/>
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/86c973ce-84a9-4e3a-b474-91bd666e8c4d" />
+
 
 ## 🧠 Mục tiêu
 
