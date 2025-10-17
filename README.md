@@ -36,6 +36,10 @@ gcc -o helpdriver.cpp helpdriver
 
 Hệ thống sẽ bắt đầu thu thập dữ liệu và đưa ra các phản hồi phù hợp với trạng thái của tài xế.
 
+## Project liên quan. 
++ Adaptive OS : https://github.com/CodelikeC/AdaptiveOS
++ DIP : https://github.com/CodelikeC/DriverIntrospectiveProxy
+
 ## 📄 Giấy phép
 
 Dự án được phát hành theo giấy phép [Apache License 2.0](https://github.com/CodelikeC/AIForDriver/blob/main/LICENSE).
