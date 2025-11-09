@@ -1,10 +1,15 @@
 # 🛡️ AIForDriver — Safety Standards Specification
 
 > **Document:** safety_standards.md
+
 > **Version:** 1.0
-> **Author:** Nguyen Duc Tri 
+
+> **Author:** Nguyen Duc Tri
+
 > **Date:** November 2025
+
 > **Category:** Adaptive Intelligence / Safety Protocol
+
 > **Purpose:** Define the ethical, technical, and procedural safety principles of AIForDriver nodes and runtime.
 
 ---
