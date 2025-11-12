@@ -23,7 +23,7 @@ namespace utils
 
         private: 
         static uint32_t crc32(const uint8_t *data, size_t len);
-        static uint32_t alder32(const uint8_t * data, size_t len); 
+        static uint32_t adler32(const uint8_t * data, size_t len); 
         static uint32_t xor8(const uint8_t *data, size_t len); 
     }; 
 } // namespace utils.. // 
