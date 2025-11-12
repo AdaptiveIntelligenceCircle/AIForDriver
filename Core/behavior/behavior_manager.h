@@ -22,14 +22,15 @@ class BehaviorManager
 
     // register core action handlers../
     void register_control_handler(function<void(const string &payload)> handler); 
-    void register_emergency_handler(function<void(const string &reason)> reason); 
+    void register_emergency_handler(function<void(const string &reason)> handler); 
 
     // run evaluation with a context map.. / 
     vector<string> evaluate_context(const unordered_map<string,string> &ctx );
 
     // access engine.. 
-    Behavior_engine &engine(); 
+    BehaviorEngine &engine(); 
 
     private: 
-    shared_ptr<Behavior_engine> engine_ptr; 
+    shared_ptr<BehaviorSandbox> sandbox;
+    unique_ptr<BehaviorEngine> engine_ptr;
 }; 
