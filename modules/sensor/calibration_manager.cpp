@@ -43,4 +43,9 @@ double CalibrationManager :: apply(const string &sensor, double raw_value)
 bool CalibrationManager :: is_stale(const string &sensor, double max_sec) const 
 {
     auto it = table.find(sensor); 
+    if (it == table.end()) return true; 
+
+    auto now = chrono :: steady_clock :: now(); 
+    double diff = chrono :: duration<double> (now - it -> second.last_update).count(); 
+    return diff > max_sec;
 }
