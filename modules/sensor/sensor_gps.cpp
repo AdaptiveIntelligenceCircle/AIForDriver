@@ -2,7 +2,7 @@
 using namespace std;
 
 #include <string> 
-#include "safety/safety_log.h"
+#include "../safety/safety_log.h"
 
 #include <chrono>
 #include <cmath> 
