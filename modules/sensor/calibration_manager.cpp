@@ -2,7 +2,7 @@
 #include <iostream>
 
 #include <cmath> 
-#include "safety/safety_log.h"
+#include "../safety/safety_log.h"
 
 using namespace std ; 
 
