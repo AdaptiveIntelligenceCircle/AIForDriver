@@ -125,14 +125,11 @@ Kết hợp giữa **phản ứng cứng (C++)** và **học mềm (Lua)**:
 ```bash
 git clone https://github.com/AdaptiveIntelligenceCircle/AIForDriver.git
 cd AIForDriver
-# Cài đặt các thư viện cần thiết
-pip install -r requirements.txt
 ```
 
 ## 🚀 Sử dụng
 
 ```bash
-python main.py
 gcc -o helpdriver.cpp helpdriver
 ```
 
