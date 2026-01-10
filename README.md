@@ -141,7 +141,7 @@ Hệ thống sẽ bắt đầu thu thập dữ liệu và đưa ra các phản h
 
 ## 📄 Giấy phép
 
-Dự án được phát hành theo giấy phép [Apache License 2.0](https://github.com/AdaptiveIntelligenceCircle/AIForDriver/blob/main/LICENSE).
+Dự án được phát hành theo giấy phép [GNU GPL-3.0](https://github.com/AdaptiveIntelligenceCircle/AIForDriver/blob/main/LICENSE).
 
 ## 🤝 Đóng góp
 
