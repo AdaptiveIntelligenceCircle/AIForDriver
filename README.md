@@ -2,7 +2,6 @@
 
 **AIForDriver** là một hệ thống hỗ trợ tài xế nhằm **giảm căng thẳng**, **nâng cao hiệu suất lái xe** và **tăng cường bảo vệ an toàn**.
 
-![alt text](Aifordriver(new).jpg)
 
 ## 🧠 Mục tiêu
 
