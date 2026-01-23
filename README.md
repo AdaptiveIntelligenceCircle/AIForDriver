@@ -3,7 +3,7 @@
 **AIForDriver** là một hệ thống hỗ trợ tài xế nhằm **giảm căng thẳng**, **nâng cao hiệu suất lái xe** và **tăng cường bảo vệ an toàn**.
 
 <p align="center">
-  <img src="assets/Aifordriver(new).jpg" alt="AIC Logo" width="180"/>
+  <img src="assets/Aifordriver(new).jpg" alt="AIC Logo" width="1024" length = "1024"/>
 </p>
 
 <p align="center">
