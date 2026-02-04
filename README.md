@@ -1,6 +1,6 @@
 # 🚗 AIForDriver
 
-**AIForDriver** là một hệ thống hỗ trợ tài xế nhằm **giảm căng thẳng**, **nâng cao hiệu suất lái xe** và **tăng cường bảo vệ an toàn**.
+**AIForDriver** is a driver assistance system designed to **reduce stress**, **improve driving performance**, and **enhance safety**.
 
 <p align="center">
   <img src="assets/Aifordriver(new).jpg" alt="AIC Logo" width="1024" length = "1024"/>
@@ -11,20 +11,25 @@
   Decentralized nodes • Ethical scaling • auto-driven
 </p>
 
-## 🧠 Mục tiêu
+## 🧠 Objectives
 
-- Phân tích trạng thái tâm lý và thể chất của tài xế thông qua cảm biến và dữ liệu hành vi.
-- Đưa ra các khuyến nghị hoặc cảnh báo để cải thiện sự tập trung và giảm stress.
-- Tích hợp các công nghệ AI để hỗ trợ ra quyết định trong thời gian thực.
+- Analyze the driver's mental and physical state through sensors and behavioral data.
 
-## 📦 Tính năng chính
+- Provide recommendations or warnings to improve concentration and reduce stress.
 
-- Nhận diện cảm xúc và trạng thái mệt mỏi của tài xế.
-- Gợi ý âm nhạc, nghỉ ngơi hoặc điều chỉnh hành trình phù hợp.
-- Cảnh báo nguy cơ mất tập trung hoặc buồn ngủ.
-- Giao diện trực quan và dễ sử dụng.
+- Integrate AI technologies to support real-time decision-making.
 
-## Structure - cấu trúc 
+## 📦 Key Features
+
+- Recognizes driver emotions and fatigue levels.
+
+- Suggests appropriate music, rest breaks, or route adjustments.
+
+- Warns of distraction or drowsiness.
+
+- Intuitive and easy-to-use interface.
+
+## Structure 
 ``` plaintext
 AIForDriver/
 │
@@ -82,7 +87,7 @@ AIForDriver/
 
 ```
 
-## Luồng vận hành chi tiết:
+## Detailed operating flow :
 ``` plaintext
 Sensors → SensorSync → DriverState → Lua:SafetyTrigger
                      ↓
@@ -92,21 +97,22 @@ Sensors → SensorSync → DriverState → Lua:SafetyTrigger
                      ↓
            EmergencyProtocol (nếu cần)
 ```
-Kết hợp giữa **phản ứng cứng (C++)** và **học mềm (Lua)**:
+Combining **hardware response (C++)** and **software learning (Lua)**:
 
-- C++: đảm bảo phản ứng tức thời, kiểm soát phần cứng, realtime.
-- Lua: điều chỉnh chiến lược, thích nghi, tự học, xử lý ngoại lệ phức tạp.
+- C++: ensures immediate response, hardware control, real-time.
 
-## Cấu trúc lớp logic 
+- Lua: adjusts strategies, adapts, self-learns, handles complex exceptions.
+
+## Logic layer.  
 ```
 ┌──────────────────────────┐
 │     Application Layer    │ → Dashboard, User Feedback, HMI
 ├──────────────────────────┤
-│     Adaptive Protocol    │ → Lua + Core giao thức lái
+│     Adaptive Protocol    │ → Lua + Core for driver protocol. 
 ├──────────────────────────┤
-│     Behavior Engine      │ → Biên dịch, học, dự đoán hành vi
+│     Behavior Engine      │ → compiler, learning, behavior
 ├──────────────────────────┤
-│     Sensor Integration   │ → Cảm biến vật lý, đồng bộ dữ liệu
+│     Sensor Integration   │ → sensor, synchronize raw data
 ├──────────────────────────┤
 │     Runtime Layer        │ → Scheduler, Executor, Lua Bridge
 ├──────────────────────────┤
@@ -116,43 +122,43 @@ Kết hợp giữa **phản ứng cứng (C++)** và **học mềm (Lua)**:
 └──────────────────────────┘
 
 ```
-## Tầm nhìn :
+## Vision :
 ``` 
-| Giai đoạn            | Mục tiêu                                     | Thành phần trọng tâm                              |
+| Phase            | Mission                                      | Main Components                   |
 | -------------------- | -------------------------------------------- | ------------------------------------------------- |
-| **Tháng 11-12/2025** | Hoàn thiện `protocol/core` + `lua` + bridge  | `control_channel`, `lua_bridge`, safety unit test |
-| **Q1/2026**          | Thêm `runtime/` và `security/` sandbox       | `executor`, `scheduler`, `intrusion_detector`     |
-| **Q2/2026**          | Mở rộng `behavior/` và `analytics/`          | Reinforcement Learning, Behavior Log              |
-| **Q3/2026**          | Kết nối phân tán (AIForDriver Cloud Network) | `p2p_protocol`, `trust_manager`, `update_sync`    |
+| **11-12/2025** | Complete `protocol/core` + `lua` + bridge  | `control_channel`, `lua_bridge`, safety unit test |
+| **Q1/2026**          | Add `runtime/` and `security/` sandbox       | `executor`, `scheduler`, `intrusion_detector`     |
+| **Q2/2026**          | Expand `behavior/` and `analytics/`          | Reinforcement Learning, Behavior Log              |
+| **Q3/2026**          | Distributed connection (AIForDriver Cloud Network) | `p2p_protocol`, `trust_manager`, `update_sync`    |
 ```
 
-## 🛠️ Cài đặt
+## 🛠️ Settings
 
 ```bash
 git clone https://github.com/AdaptiveIntelligenceCircle/AIForDriver.git
 cd AIForDriver
 ```
 
-## 🚀 Sử dụng
+## 🚀 Testing
 
 ```bash
 gcc -o helpdriver.cpp helpdriver
 ```
 
-Hệ thống sẽ bắt đầu thu thập dữ liệu và đưa ra các phản hồi phù hợp với trạng thái của tài xế.
+The system will begin collecting data and providing responses appropriate to the driver's state.
 
-## Project liên quan. 
+## Projects 
 + Adaptive OS : https://github.com/AdaptiveIntelligenceCircle/AdaptiveOS
 + DIP : https://github.com/AdaptiveIntelligenceCircle/DriverIntrospectiveProxy
 
-## 📄 Giấy phép
+## 📄 LICENSE
 
 Dự án được phát hành theo giấy phép [GNU GPL-3.0](https://github.com/AdaptiveIntelligenceCircle/AIForDriver/blob/main/LICENSE).
 
-## 🤝 Đóng góp
+## 🤝 Contributing
 
-Chúng tôi hoan nghênh mọi đóng góp! Hãy tạo pull request hoặc mở issue để thảo luận.
+We welcome all contributions! Please create a pull request or open an issue for discussion.
 
 ---
 
-Dự án đang trong giai đoạn khởi động. 
+The project is in its launch phase.
